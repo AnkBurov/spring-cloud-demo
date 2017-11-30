@@ -13,7 +13,13 @@ hs_err_pid*
 
 *.iml
 **/target/**
+**/build/**
+**/out/**
 *.idea
 *.classpath
 *.project
 *.orig
+
+/.gradle/
+
+**/logs/**

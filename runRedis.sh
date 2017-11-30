@@ -1,0 +1,1 @@
+docker run -d --name redis-test -p 6379:6379 -v C:/redis_storage_data:/data redis redis-server --appendonly yes

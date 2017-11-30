@@ -1,4 +1,4 @@
-FROM docstore.rgs.ru:5000/centos-java:latest
+FROM nimmis/java-centos:latest
 MAINTAINER "jihor"
 
 # add jar

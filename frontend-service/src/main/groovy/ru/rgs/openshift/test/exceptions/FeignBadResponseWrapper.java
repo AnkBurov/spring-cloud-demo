@@ -21,4 +21,16 @@ public class FeignBadResponseWrapper extends HystrixBadRequestException {
         this.headers = headers;
         this.body = body;
     }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public HttpHeaders getHeaders() {
+        return headers;
+    }
+
+    public String getBody() {
+        return body;
+    }
 }
